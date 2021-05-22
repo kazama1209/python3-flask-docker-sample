@@ -27,3 +27,11 @@ $ curl http://localhost:5000/api/v1/hello
 ```
 
 JSONが返ってくれば成功。
+
+コンテナに入って何かしたい場合、
+
+```
+$ docker exec -it flask /bin/ash
+```
+
+で入れる。
